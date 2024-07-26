@@ -205,13 +205,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    socialLink: "https://github.com/sahil1213-ux",
   },
   {
     id: 3,
     img: "/link.svg",
+    socialLink: "https://www.linkedin.com/in/sahil-anand-00ba36256/",
   },
 ];
