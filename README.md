@@ -13,7 +13,7 @@
   <h3 align="center">A Modern Next.js Portfolio</h3>
 
    <div align="center">
-     This is beautiful and Resopsive Next JS Project that i Have learnt from the youtube channel <b>JavaScript Mastery</b></a> YouTube who provides high quality and modern software development projects for the community.
+     This is Beautiful and Responsive Next JS Project that i Have learnt from the youtube channel <b>JavaScript Mastery</b></a> YouTube who provides high quality and modern software development projects for the community.
     </div>
 </div>
 
