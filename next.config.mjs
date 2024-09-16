@@ -41,6 +41,16 @@
 // automaticVercelMonitors: true,
 // });
 
+// try {
+//   module.exports = withSentryConfig(nextConfig, sentryWebpackPluginOptions, sentryOptions);
+// } catch (err) {
+//   if (!(err instanceof Error)) {
+//     err = new Error(String(err));
+//   }
+//   console.error("Error in next.config.mjs:", err);
+//   throw err;
+// }
+
 
 
 
