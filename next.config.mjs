@@ -44,7 +44,7 @@
 
 
 
-const { withSentryConfig } = require('@sentry/nextjs');
+import { withSentryConfig } from '@sentry/nextjs';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -90,4 +90,12 @@ const sentryOptions = {
   automaticVercelMonitors: true,
 };
 
-module.exports = withSentryConfig(nextConfig, sentryWebpackPluginOptions, sentryOptions);
+try {
+  module.exports = withSentryConfig(nextConfig, sentryWebpackPluginOptions, sentryOptions);
+} catch (err) {
+  if (!(err instanceof Error)) {
+    err = new Error(String(err));
+  }
+  console.error("Error in next.config.mjs:", err);
+  throw err;
+}
